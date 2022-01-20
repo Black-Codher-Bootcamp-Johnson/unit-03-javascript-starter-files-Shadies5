@@ -5,10 +5,30 @@ const age = "10";
 console.log(name);
 
 let a = 5;
-const b = 10;
+let b = 10;
 const c = a + b;
 
-console.log(c);
+console.log('Original output: ' + c);
 
-let d = 2 + 2;
-console.log(d);
+function sayHey( ) {
+    console.log("Hey!");
+}
+
+function sayHey(Name ) {
+    console.log("How are you? " + Name);
+    console.log("Goodbye");
+}
+sayHey("Mary");
+
+ function addTwoNumbers(x, y) {
+     const answer = x + y;
+     return "The answer is: " + answer;
+  }
+  console.log (addTwoNumbers(2, 2));
+
+function futureAge(personsName, personsAge) {
+    const answer = personsAge + 5;
+
+    return personsName + ' will be ' + answer + ' in 5 years! ';
+}
+console.log (futureAge( 'Mary', 21 ));
