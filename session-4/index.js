@@ -16,7 +16,7 @@ personA = {
 
 personB = {
     name: 'Wilson',
-    age: '22',
+    age: '23',
     location: 'France',
     likes: 'football',
 }
