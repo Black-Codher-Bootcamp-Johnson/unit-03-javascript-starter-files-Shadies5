@@ -92,6 +92,12 @@ console.log("last: x * y / x " + last);
 
 // ****************************************************TASK 3****************************************************
 
+const rightage = 18;
+const myage = 22;
+
+const amIlegaltoDrive = myage >  rightage;
+
+console.log("Am I old enough to drive?" + amIlegaltoDrive);
 
 
 
