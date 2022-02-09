@@ -15,10 +15,16 @@ console.log(animals);
 
 
 // ****************************************************TASK 2****************************************************
+const names = ['cat', 'dog', 'wolf', 'lion', 'eagle', 'zebra', 'sheep', 'horse', 'bird', 'rabbit'];
 
+names.sort().reverse();
+console.log(names);
 
+const numbers = [5, 325, 67, 100000, 150]
 
+numbers.sort();
 
+console.log(numbers);
 
 
 
@@ -44,3 +50,5 @@ function compare(a, b) {
 
   return personA > personB ? true : false;
 }
+const sortedPeople = people.sort (compare).map(person => person.name);
+console.log(sortedPeople);
