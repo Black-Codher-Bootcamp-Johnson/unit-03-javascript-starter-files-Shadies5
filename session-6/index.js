@@ -15,16 +15,15 @@ while (Count <= 10) {
 
 
 
-
-
-
-
-
-
-
 // ****************************************************TASK 2****************************************************
+console.log("=========================================");
 
+for (let counter = 0; counter <= 10; counter = counter + 1 ) {
+  const randomNumber = Math.round(Math.random() * 10);
+  console.log(randomNumber)
+}
 
+console.log ("========================================");
 
 
 
